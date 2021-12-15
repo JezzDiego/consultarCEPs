@@ -1,0 +1,50 @@
+body {
+  background-color: indigo;
+  color: rgb(122, 122, 122);
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+}
+
+h1 {
+  margin: auto;
+  margin-bottom: 150px;
+  padding: auto;
+  text-align: center;
+}
+
+.container input,
+button {
+  height: 50px;
+  border: 2px solid rgb(122, 122, 122);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 35px;
+  text-align: center;
+}
+
+input {
+  background-color: antiquewhite;
+  margin-bottom: 20px;
+}
+
+button {
+  color: rgb(59, 58, 58);
+  background-color: lightblue;
+  padding: 0;
+  cursor: pointer;
+  transition: 700ms;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+p {
+  text-align: center;
+}
